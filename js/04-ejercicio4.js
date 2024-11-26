@@ -4,3 +4,6 @@ Ejemplo:
 input: Coder 
 Output: Hola Coder
  */
+
+let nombreUsuario = prompt('Ingresar nombre de Usuario')
+document.write(`Hola ${nombreUsuario}`)
