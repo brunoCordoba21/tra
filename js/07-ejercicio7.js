@@ -11,21 +11,12 @@ let numero1 = parseInt(prompt('Ingresar número 1'))
 let numero2 = parseInt(prompt('Ingresar número 2'))
 let numero3 = parseInt(prompt('Ingresar número 3'))
 
-// if (numero1 > numero2 && numero1 > numero3) {
-//     document.write(`El mayor de los números ${numero1}, ${numero2} y ${numero3} es el primero que se ingreso que equivale a ${numero1}  `)
-// } else {
-//     if (numero2 > numero1 && numero2 > numero3) {
-//         document.write(`El mayor de los números  ${numero1}, ${numero2} y ${numero3} es el segundo que se ingreso que equivale a ${numero2}`)
-
-//     } else {
-//         document.write(`El mayor de los números ${numero1}, ${numero2} y ${numero3} es el tercero que se ingreso que equivale a ${numero3}`)
-//     }
-
 if (numero1 > numero2 && numero1 > numero3) {
-   document.write(`El mayor de los números ${numero1}, ${numero2} y ${numero3} es el primero que se ingreso que equivale a ${numero1}  `)
+    document.write(`El mayor de los números ${numero1}, ${numero2} y ${numero3} es el primero que se ingreso que equivale a ${numero1}  `)
 
-}else if(numero2 > numero1 && numero2 > numero3){
+} else if (numero2 > numero1 && numero2 > numero3) {
     document.write(`El mayor de los números  ${numero1}, ${numero2} y ${numero3} es el segundo que se ingreso que equivale a ${numero2}`)
-}else{
+
+} else {
     document.write(`El mayor de los números ${numero1}, ${numero2} y ${numero3} es el tercero que se ingreso que equivale a ${numero3}`)
 }
