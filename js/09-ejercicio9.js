@@ -8,6 +8,7 @@
 // Output: oauo
 
 let frase = prompt('Ingresar una cadena de texto')
+frase = frase.toLowerCase()
 let vocales = ""
 
 for (let i = 0; i <= frase.length; i++) {
@@ -18,7 +19,7 @@ for (let i = 0; i <= frase.length; i++) {
         vocales += caracteres
     }
 }
-console.log(`Las vocales de la palabra ${frase} son ${vocales}`);
+console.log(`Las vocales de la palabra ${frase} son ${vocales.length} ${vocales}`);
 
 
 
